@@ -40,7 +40,9 @@ function Todo(){
                     })
                 }
         </div>
-       
+        <div className="showItems">
+            <button className="btn effect04" data-sm-link-text="remove All" onClick={()=>dispatch(removeTodo())}><span>Check List</span></button>
+        </div>
 
         </div>
         </div>
